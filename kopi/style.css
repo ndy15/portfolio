@@ -114,6 +114,7 @@ section img {
     background: white;
     transition: transform;
     width: 300px;
+    transition: all 0.3s ease;
 }
 
 .grid > article img {
@@ -126,8 +127,7 @@ section img {
 }
 
 .grid > article:hover{
-    transform: scale(1.2);
-    transition: all 0.3s ease;
+    transform: scale(1.02);
 }
 
 .footer {
